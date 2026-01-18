@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+  background: url('assets/fastbear.gif') no-repeat center center fixed;
+  background-size: cover;
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 9999;
+}
+
+h1 { 
+  color: brown;
+  margin-left: 20px;
+  margin-bottom: 40px;
+}
+
+h2 {
+  color: brown;
+  font-size: 21px;
+}
+
+p {
+  color: brown;
+  margin-left: 50px;
+}
+
+a {
+  margin-left: 15px;
+}
+
+div {
+  background-color: grey;
+  width: 500px;
+  padding: 25px;
+  margin: 300px;
+}
