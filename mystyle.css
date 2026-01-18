@@ -12,8 +12,6 @@ body::before {
   inset: 0;
   pointer-events: none;
   z-index: 9999;
-
-
 }
 
 h1 { 
@@ -33,16 +31,17 @@ p {
 }
 
 a {
-    margin-left: 15 px;
+  margin-left: 15px;
 }
+
 div {
   background-color: grey;
   width: 500px;
   padding: 25px;
   margin: 300px;
-  border: 2px solid black
+  /* border removed */
 }
 
-a {     margin-left: 15 px;
-
+a {     
+  margin-left: 15px;
 }
