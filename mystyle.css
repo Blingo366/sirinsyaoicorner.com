@@ -15,18 +15,18 @@ body::before {
 }
 
 h1 { 
-  color: #867857;
+  color: white;
   margin-left: 20px;
   margin-down: 40px;
 }
 
 h2 {
-  color: #867857;
+  color: white;
   font-size: 21px;
 }
 
 p {
-  color: #867857;
+  color: white;
   margin-left: 50px;
 }
 
