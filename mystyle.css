@@ -15,18 +15,18 @@ body::before {
 }
 
 h1 { 
-  color: white;
+  color: brown;
   margin-left: 20px;
   margin-down: 40px;
 }
 
 h2 {
-  color: white;
+  color: brown;
   font-size: 21px;
 }
 
 p {
-  color: white;
+  color: brown;
   margin-left: 50px;
 }
 
@@ -39,7 +39,6 @@ div {
   width: 500px;
   padding: 25px;
   margin: 300px;
-  /* border removed */
 }
 
 a {     
