@@ -99,4 +99,17 @@ body {
     <p>sirinsyaoicorner.com — please contact your administrator if you would like to access the hidden site
   </footer>
 </body>
+
+<script>
+$( document ).ready(function() {
+    let originalTitle = document.title;
+  $(document).on('visibilitychange', function() {
+      
+    if (document.visibilityState === 'hidden') {
+      document.title = "COME BACK TO THIS SITE I HATE YOU WHY ARE YOU LEAVING SIRIN'S YAOI CORNER IS LOVE SIRIN'S YAOI CORNER IS LIFE HOW DARE YOU LEAVE";
+    } else if (document.visibilityState === 'visible') {
+        document.title = "Sirin's Yaoi corner";
+    }
+  });
+  </script>
 </html>
