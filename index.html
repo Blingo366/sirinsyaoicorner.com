@@ -101,14 +101,17 @@ body {
 </body>
 
 <script>
-$( document ).ready(function() {
+
+  $( document ).ready(function() {
     let originalTitle = document.title;
   $(document).on('visibilitychange', function() {
       
     if (document.visibilityState === 'hidden') {
-      document.title = "COME BACK TO THIS SITE I HATE YOU WHY ARE YOU LEAVING SIRIN'S YAOI CORNER IS LOVE SIRIN'S YAOI CORNER IS LIFE HOW DARE YOU LEAVE";
+      // Code to execute when the user leaves the tab
+      document.title = "COME BACK TO THIS SITE I HATE YOU WHY ARE YOU LEAVING SIRIN'S YAOI CORNER IS LOVE SIRIN'S YAOI CORNER IS LIFE HOW DARE YOU LEAVE!";
     } else if (document.visibilityState === 'visible') {
-        document.title = "Sirin's Yaoi corner";
+        // Code to execute when the user returns to the tab
+        document.title = originalTitle;
     }
   });
   </script>
