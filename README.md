@@ -5,4 +5,4 @@ Please interact!
 
 Changelogs
 24/02/26:
-  Added ultimate goose game(/ugg), five nights at einsteins(/fnae), gorilla tag(/gorillatag), breath of the wild(/botwspeedrun), peggle(/pegging) and hollow knight(/hollowknight/ghoulishwalter), and osu(/osu!(not working)).
+  Added ultimate goose game(/ugg), five nights at einsteins(/fnae), gorilla tag(/gorillatag), breath of the wild(/botwspeedrun), peggle(/pegging) and hollow knight(/hollowknight/ghoulishwalter), and osu(/osu!(trying to get beatmaps! not working)).
