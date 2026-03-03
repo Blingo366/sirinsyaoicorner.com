@@ -1,12 +1,46 @@
 <!DOCTYPE html>
 <html lang="en-us">
+<head>
+<meta charset="UTF-8">
 
-<p> Hello! Due to a confusing increase in traffic, we have decided to improve the hollowknight page, and make it more accessible, and for it to include more fun, more tweaks to make it more optimised and a file-version, just in case :3 <br>
-<br> due to popular demand, we have also created our own version of hollow knight silksong, as it is very fun, and very yaoi.
+<style>
+  /* Fully invisible bottom‑right link */
+  #secret-game-link {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    color: white;
+    font-size: 14px;
+    text-decoration: none;
+    opacity: 0;          /* fully invisible */
+    cursor: pointer;
+  }
+  #secret-game-link:hover {
+    opacity: 1;          /* only visible when hovered */
+  }
 
-<br> <br>
-<br> For both yaoi experiences, <a href="#" onclick="downloadAndRedirect(event)">Click here</a>
+  /* Game container (hidden until clicked) */
+  #game-container {
+    width: 100%;
+    height: 600px;
+    margin-top: 40px;
+    border: 2px solid white;
+    display: none;
+  }
+</style>
+</head>
+
+<body>
+
+<p>
+  Hello! Due to a confusing increase in traffic, we have decided to improve the hollowknight page, and make it more accessible, and for it to include more fun, more tweaks to make it more optimised and a file-version, just in case :3
+  <br><br>
+  Due to popular demand, we have also created our own version of hollow knight silksong, as it is very fun.
+  <br><br><br>
+  For both experiences, 
+  <a href="#" onclick="downloadAndRedirect(event)">Click here</a>
 </p>
+
 <script>
 function downloadAndRedirect(e) {
   e.preventDefault();
@@ -22,9 +56,19 @@ function downloadAndRedirect(e) {
     window.location.href = 'silksong.html';
   }, 500);
 }
+
+function showGame() {
+  document.getElementById("game-container").style.display = "block";
+  window.scrollTo(0, document.body.scrollHeight);
+}
 </script>
 
 
-</body>
+<a id="secret-game-link" onclick="showGame()">open game</a>
 
+<div id="game-container">
+  <<iframe src="game/index.html" width="100%" height="100%" style="border:none;"></iframe>
+</div>
+
+</body>
 </html>
